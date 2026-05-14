@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "pages/api/transcribe.js": {
+      "maxDuration": 300,
+      "memory": 1024
+    },
+    "pages/api/transcribe-status.js": {
+      "maxDuration": 10
+    },
+    "pages/api/claude.js": {
+      "maxDuration": 60
+    }
+  }
+}
